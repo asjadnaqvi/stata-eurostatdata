@@ -22,7 +22,7 @@ coming soon
 or GitHub (v1.0):
 
 ```stata
-net install eurostatdata, from("https://raw.githubusercontent.com/asjadnaqvi/eurostatdata/main/installation/") replace
+net install eurostatdata, from("https://raw.githubusercontent.com/asjadnaqvi/stata-eurostatdata/main/installation/") replace
 ```
 
 Requires Stata 15 or later. The `fast` option uses [`greshape`](https://github.com/mcaceresb/stata-gtools) from `gtools`; all other options use Stata commands only.
