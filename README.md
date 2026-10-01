@@ -1,6 +1,10 @@
 
 [Installation](#Installation) | [Syntax](#Syntax) | [Examples](#Examples) | [Citation-guidelines](#Citation-guidelines) | [Feedback](#Feedback) | [Change-log](#Change-log)
 
+
+<img width="100%" alt="eurostatdata_banner" src="https://github.com/user-attachments/assets/da3f1ab7-6e93-4012-a24d-5016ce13cafb" />
+
+
 ---
 
 # eurostatdata v1.0
