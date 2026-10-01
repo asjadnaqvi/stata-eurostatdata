@@ -78,7 +78,7 @@ eurostatdata meta, update
 
 ## Performance
 
-An end-to-end benchmark of `nama_10_gdp` was run in Stata 17 SE on Windows on 1 Oct 2026. Each command was warmed up, then timed over three runs; timings include the Eurostat response, download, and package processing. Each successful run returned 35,866 observations and 55 variables.
+An end-to-end benchmark of `nama_10_gdp` was run in Stata 17 SE on Windows on 1 Oct 2026. Each command was warmed up, then timed over three runs. Timings include the Eurostat response, download, and package processing. Each successful run returned 35,866 observations and 55 variables.
 
 | Command | Successful runs | Median (seconds) | Range (seconds) | Relative to `eurostatdata` |
 | --- | ---: | ---: | ---: | ---: |
@@ -88,7 +88,7 @@ An end-to-end benchmark of `nama_10_gdp` was run in Stata 17 SE on Windows on 1 
 
 ### Doing your own benchmark runs
 
-Optional: install comparison commands before running the benchmark. Commands that are not installed are skipped.
+If you want to do your own benchmarks, then install all the packages that claim to connect with Eurostat:
 
 ```stata
 ssc install eurostatdata, replace    // when available, otherwise install from GitHub
@@ -98,6 +98,8 @@ ssc install eurostatuse, replace
 *ssc install sdmxuse, replace  // stale
 *ssc install xteurostat, replace // stale
 ```
+
+Note that some of the packages are no longer working given the changes in Eurostat protocols. Run the benchmark on two packages:
 
 
 ```stata

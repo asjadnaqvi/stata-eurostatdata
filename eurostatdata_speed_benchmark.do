@@ -198,7 +198,7 @@ cd `"`original_pwd'"'
 
 
 
-*******
+**** smaller benchmark run ****
 
 timer clear
 
