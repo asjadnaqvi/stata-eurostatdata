@@ -1,0 +1,6 @@
+v 1.0
+d 'eurostatusedata': A Stata package for bulk downloading Eurostat data
+d
+d Distribution-Date: 20261001
+
+

@@ -1,0 +1,19 @@
+v 1.0
+d {bf:EUROSTATDATA}: Bulk download Eurostat data
+d See {bf:help eurostatdata} after installation.
+d
+d Requires: Stata version 15 or higher.
+d
+d
+d Distribution-Date: 20261001
+d
+d Author: Asjad Naqvi (asjadnaqvi@gmail.com)
+d
+f eurostatdata.ado
+f eurostatdata.sthlp
+
+
+
+
+
+
